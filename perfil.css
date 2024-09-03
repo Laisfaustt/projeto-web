@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(219, 219, 219);
+    font-family: sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    }
+img {
+    border-radius: 10xp;
+    padding: 30px;
+    text-align: center;
+}
+div {
+    background-color: rgb(255, 255, 255);
+    }
+.caixa {
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    }
+
+
+
