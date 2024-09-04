@@ -1,0 +1,28 @@
+button {
+    background-color: #895737;
+    height: 60px;
+    width: 200px;
+    font-style: italic; 
+    border-radius: 10%;
+    border: #230902
+    
+}
+
+body {
+    background-color: #f7ebd3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #521908;
+    text-align: center;
+}
+
+.espaco {
+    margin: 30px;
+    height: 20px;
+    width: 100px;
+}
