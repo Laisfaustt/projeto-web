@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Tint&family=Fascinate+Inline&family=Jacques+Francois+Shadow&family=Matemasie&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Jacques+Francois+Shadow&family=Matemasie&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
+
+body {
+    background-image: url(img.html/1.png);
+    font-family: sans-serif;
+    padding: 20px;
+    background-attachment: fixed;
+    }
+  
+  
+  h2 {
+    font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #4d2a16;
+  }
+  
+  .menu {
+    width: 50%;
+    background-color: #c1a076;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 20px;
+    
+  }
+  
+.imgcafe{
+    display: block;
+    width: 30%;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .imggrao {
+    display: block;
+    width: 20%;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .imgmontanha {
+    display: block;
+    width: 40%;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  hr {
+    height: 2px;
+    background-color: #844420;
+    border-color: #844420;
+    width: 200px;
+    height: 2px;
+    width: 350px;
+  }
+
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  .item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+
+  p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 18px;
+    font-family: serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .bebida{
+    text-align: left;
+    width: 75%;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-family: impact;
+    color: #2b381f;
+
+  }
+  
+  .preco {
+    text-align: right;
+    width: 25%;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-family: impact;
+    color: #2b381f;
+  }
+
+h3{
+    font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #4d2a16;
+}
+
+.rodape{
+    text-align: center;
+}
