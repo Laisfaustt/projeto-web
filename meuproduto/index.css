@@ -1,5 +1,5 @@
 section{
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     height: 50%;
     width: auto;
 
@@ -62,30 +62,38 @@ section{
     overflow: hidden;
 
     figure {
-        display: flex;
-        margin: 0;
+        padding:15px;
+            width:"200";
+            height:"150";
+            align-items:"left";
+            border: 5px solid color(srgb red green blue);
+            display: flex;
+            align-items: center;
+
     }
     
-    img {
-        display: block;
-        flex: 1 1 auto;
-        object-fit: cover;
+    
+    .descri {
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .autor {    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;  
+        color: rgba(41, 41, 41, 0.527);
+        
     }
     
     figcaption {
-        align-self: flex-end;
-        padding: 20px 20px 0 20px;
-        flex: 0 0 auto;
-        width: 25%;
-        min-width: 150px;
+        margin-left: 10px;
+        display: contents;
     }
-    
-    .autor {
-        margin-top: 1rem;
-        color: rgba(0, 0, 0, 0.5);
-        display: block;        
-    }
-    
+
     &.scrollable {
         overflow-y: scroll;
     }
