@@ -1,26 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 body{
-    font-family: "Sora", sans-serif;
     width: 100%;
     height: 100vh;
     position: relative;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     margin: 0%;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+
 }
+
+
 
 .cabecalho-conteudo{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    background-color: #000000d5;
+    width: 100%;
+    height: 120px;
 }
 
-header{
-    width: 100%;
-}
 
 .bg-home::before{
-    background-image: linear-gradient(to bottom, #12a2c2);
+    background-image: linear-gradient(to bottom, #ffffff);
     width: 100%;
     height: 100%;
     left: 0;
@@ -32,18 +40,72 @@ header{
 }
 
 .logopeixe{
-    width: 80px;
+    width: 150px;
     margin-left: 100px;
     z-index: -1;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
-.banner2{
-    margin-top: 0px;
-    margin-left: 0px;
-    z-index: -99;  
+.botao-banner{
+    position:relative;
+    text-align:center;
+    color: #e6e6e6;
+
 }
+
+.botao-banner {
+    display: inline-block;
+    position: relative;
+  }
+  
+.botao-banner figcaption {
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    color: black;
+
+  }
+
+
+.banner2 {
+    display: inline-block;
+    padding-top: 110px;
+}
+
+.banner2 a{
+    padding:  8px 24px;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: transparent;
+    transition: background-color 0.7s;
+    margin-right: 30px;
+    position: absolute;
+    top: 550px;
+    right: 1000px;
+    font-weight: 300;
+    font-size: 30px;
+    margin-right: 300px;
+    margin-top: 150px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+
+.banner2 a:hover{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #000000;
+}
+
+.banner2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+   }
 
 .cabecalhopreto{
     background-color: #000000;
@@ -57,32 +119,33 @@ header{
     text-decoration: none;
     border-radius: 17px;
     background-color: transparent;
-    transition: background-color 0.3s;
+    transition: background-color 0.7s;
     margin-right: 30px;
+
 }
 
 .cabecalho-botao:hover{
-    background-color: #eb1d27;
-    border: 1px solid #eb1d27;
-    color: #000000;
+    background-color: #702417;
+    border: 1px solid #702417;
+    color: #ffffff;
 }
 
 .cabecalho-botao-ifood{
     border: 1px solid #aa9e9dda;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     padding:  8px 24px;
     text-decoration: none;
     border-radius: 17px;
     background-color: transparent;
-    transition: background-color 0.3s;
+    transition: background-color 0.7s;
     margin-right: 100px ;
     margin-left: 0px;
 }
 
 .cabecalho-botao-ifood:hover{
-    background-color: #eb1d27;
-    border: 1px solid #eb1d27;
-    color: #000000;
+    background-color: #702417;
+    border: 1px solid #702417;
+    color: #ffffff;
 }
 
 .nacena{
@@ -160,6 +223,7 @@ header{
     justify-content: center;
     gap: 14px;
     padding: 34px 14px 64px 14px;
+
 }
 
 .sobre-conteudo img{
@@ -173,18 +237,20 @@ header{
 .sobre-conteudo p{
     margin-bottom: 14px;
     line-height: 150%;
-    color: #ffffff;
+    color: #e6e6e6;
+    
 }
 
 .servicos{
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    background-color: #000000;
+    color: #e6e6e6;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 54px 14px;
-    margin-top: 50PX;
+    margin-top: 70px;
+    
+    
 }
 
 .servicos-conteudo h2{
@@ -192,13 +258,15 @@ header{
     text-align: center;
     font-size: 38px;
     margin-bottom: 34px;
+    color: #e6e6e6;
 }
 
 .servicos-conteudo p{
     line-height:150%;
     margin-bottom: 14px;
-    text-align: left;
-    max-width: 780px;
+    text-align: center;
+    max-width: 1100px;
+
 }
 
 .cortes{
@@ -213,15 +281,15 @@ header{
     flex: 1;
     display: flex;
     flex-direction: column;
-    background-color: #000000;
+    background-color: #702417;
     border-radius: 8px;
     box-shadow: 0px -2px 17px -4px rgba(0, 0, 0, 0.45);
     overflow: hidden;
-    color: rgb(255, 255, 255);
+    color: #e6e6e6;
     justify-items: center;
     align-items: center;
     margin-left: 11%;
-    margin-top: 35px;
+    margin-top: 95px;
 }
 
 .cortedescri {
@@ -274,12 +342,17 @@ strong {
     gap: 14px;
     flex-direction: column;
     padding: 54px 0;
-    color: #fff;
+    color: #e6e6e6;
+    margin-top: 200px;
 }
 
 .rodape h2{ 
     font-size: 38px;
-    margin-bottom: 24px;
+    margin-bottom: 84px;
+}
+
+.rodape p{
+    margin-top: 0px;
 }
 
 .rodape-icones{
@@ -288,9 +361,7 @@ strong {
     color: #ffffff;
 }
 
-.endereco{
-    text-align: center;
-}
+
 
 .endereco a{
     color: #ffffff;
@@ -306,12 +377,63 @@ i{
 
 }
 
+.teste{
+    margin: -15px;
+}
 
-.logorodape{
-    width: 100px;
+footer {
+    background-color: #000000;
+    color: #e6e6e6;
+    padding: 20px;
     align-items: center;
 }
 
-.teste{
-    margin: -15px;
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    width: 30%;
+    margin-left: 270px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #e6e6e6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    color: #e6e6e6;
+}
+
+li {
+    margin: 5px 0;
+    color: #e6e6e6;
+}
+
+a {
+    color: #e6e6e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #9c9798;
+}
+
+.logorodape {
+    width: 140px;
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
+.imgmenu{
+    margin-top: 200px;
+    
 }

@@ -1,21 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
-    background-color: #cfcfcf;
     background-image: url(img/banner1.png);
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: cente;
-    font-family: sans-serif;
-    min-height: 100vb;
-    align-items: center;
-    background-attachment: fixed;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
+.reserva {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 250px;
+}
 .caixa {
     background-color: rgb(240, 238, 238);
-    height: 500px;
-    width: 430px;
-    display: inline-block;
+    height: 660px;
+    width: 440px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -23,6 +25,7 @@ body {
 
 p{
     margin-top: 30px;
+
 }
 
 label{
@@ -53,4 +56,96 @@ button{
 
 button:hover{
     background-color: rgb(97, 96, 96);
+}
+
+
+
+.cabecalho-conteudo{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    position: fixed;
+    background-color: #0000007e;
+    width: 100%;
+    height: 120px;
+   justify-content: space-between;
+    
+}
+
+
+.bg-home::before{
+    background-image: linear-gradient(to bottom, #ffffff);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.logopeixe{
+    width: 150px;
+    margin-left: 100px;
+    z-index: -1;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.cabecalho-botao-inicio{
+    border: 1px solid #702417;
+    color: aliceblue;
+    padding:  8px 24px;
+    text-decoration: none;
+    border-radius: 17px;
+    background-color: #702417;
+    transition: background-color 0.7s;
+    margin-right: 30px;
+}
+
+.cabecalho-botao-inicio:hover{
+    background-color: #7024178c;
+    border: 1px solid #7024178c;
+    color: #ffffff;
+}
+
+.cabecalho-botao{
+    border: 1px solid #aaa39dda;
+    color: aliceblue;
+    padding:  8px 24px;
+    text-decoration: none;
+    border-radius: 17px;
+    background-color: transparent;
+    transition: background-color 0.7s;
+    margin-right: 30px;
+
+}
+
+.cabecalho-botao:hover{
+    background-color: #702417;
+    border: 1px solid #702417;
+    color: #ffffff;
+}
+
+.cabecalho-botao-ifood{
+    border: 1px solid #aa9e9dda;
+    color: rgb(255, 255, 255);
+    padding:  8px 24px;
+    text-decoration: none;
+    border-radius: 17px;
+    background-color: transparent;
+    transition: background-color 0.7s;
+    margin-right: 100px ;
+    margin-left: 0px;
+}
+
+.cabecalho-botao-ifood:hover{
+    background-color: #702417;
+    border: 1px solid #702417;
+    color: #ffffff;
 }

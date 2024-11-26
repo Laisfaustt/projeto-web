@@ -4,9 +4,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wash Barbearia</title>
+<title>Kaiseki</title>
 <link rel="stylesheet" href="index.css">
 <link href="https://unpkg.com/aos@2.3.1/dist.aos.css " rel="stylesheet" />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
@@ -19,11 +20,12 @@
 <body>
 <div class="bg-home">
     <header>
-        <nav class="navegar">
-        </nav>
+
         <nav class="cabecalho-conteudo">
-            <div class="cabecalho-logo">
-                <img class="logopeixe" src="img/logopeixe.png" alt="logotipo do sushi">
+            <div class="cabecalho-logo" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <img class="logopeixe" src="img/logonome (2).png" alt="logotipo do sushi">
             </div>
 
             <div>
@@ -35,14 +37,19 @@
                     href="reserva.html">RESERVA</a>
                 <a class="cabecalho-botao-ifood"
                     href="https://homolog.ifood.com.br/?prato=2dfe4985-fbf6-46bc-bb80-472a461b7c3c&network=g&utm_source=google&utm_medium=cpc&utm_campaign=ifood_br_b2b_g-search-brand_aon_kw-ifood_ifood-exata&utm_content=675464984059&utm_term=ifood-e&gad_source=1&gclid=Cj0KCQjwj4K5BhDYARIsAD1Ly2qcvJ9uns9LkipM1JCkOHeC1BnxgzIXiE6FBJskSvjXDMPADhyjp5caAihUEALw_wcB">PEDIDO ONLINE</a>
-            </div>
+                    
+                </div>
         </nav>
-        <img class="banner2"  src="video/NOVO LANÇAMENTO (1920 x 800 px).gif" alt=""> 
+
+        <div class="banner2">
+            <img src="img/LANÇAMENTO.png" alt=""> 
+        </div>
+        
     </header>
 </div>
 
 <section class="sobre">
-    <div class="sobre-conteudo container">
+    <div class="sobre-conteudo container" data-aos="fade-up"  data-aos-anchor-placement="center-bottom">
         <div>
             <img class="imgsushis" src="img/prato.png" alt="sushis">
         </div>
@@ -57,17 +64,19 @@
 <div>
     <div>
         <img class="teste" src="img/bannersupremo.png" alt="">
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </div>
 </div>
 
 
 
-    <section class="servicos">
-        <div class="servicos-conteudo container">
-            <h2>NOVOS RODÍZIO</h2>
-            <p>Prepare-se para uma experiência gastronômica inesquecível! Estamos empolgados em anunciar o lançamento do nosso novo rodízio de comida japonesa, onde a tradição se encontra com a criatividade.</p>
-
-                <p>Desfrute de uma seleção exclusiva de pratos autênticos, desde sushis e sashimis fresquinhos até tempuras crocantes e saborosos pratos quentes. Cada prato é preparado com ingredientes de alta qualidade, trazendo os verdadeiros sabores do Japão para sua mesa.</p>
+    <section class="servicos" data-aos="fade-up"  data-aos-anchor-placement="center-bottom">
+        <div class="servicos-conteudo container" data-aos="fade-up"  data-aos-anchor-placement="center-bottom">
+            <h2 data-aos="fade-up" >NOVOS RODÍZIO</h2>
+            <p data-aos="fade-up" >Prepare-se para uma experiência gastronômica inesquecível! Estamos empolgados em anunciar o lançamento do nosso novo rodízio de comida japonesa, onde a tradição se encontra com a criatividade. Desfrute de uma seleção exclusiva de pratos autênticos, desde sushis e sashimis fresquinhos até tempuras crocantes e saborosos pratos quentes. Cada prato é preparado com ingredientes de alta qualidade, trazendo os verdadeiros sabores do Japão para sua mesa.</p>
         </div>
 
         <section class="cortes">
@@ -75,7 +84,7 @@
                 <img src="img/rodizio1.png" alt="">
                 <div class="corte-info">
                     <strong>Rodízio simples</strong>
-                    <button>R$90,00</button>
+                    <button>R$230,00</button>
                 </div>
                 <p class="cortedescri">Desfrute de sushis variados, sashimis suculentos e opções quentes, como yakisoba e tempura, garantindo sua experiência.</p>
             </div>
@@ -85,7 +94,7 @@
                 <img src="img/rodizio3.png" alt="">
                 <div class="corte-info">
                     <strong>Rodízio e Drink's</strong>
-                    <button>R$130,00</button>
+                    <button>R$290,00</button>
                 </div>
                 <p class="cortedescri">Delicie-se com uma variedade de sushis, sashimis e pratos quentes, acompanhados por uma seleção de drinks exclusivos.</p>
             </div>
@@ -95,20 +104,15 @@
                 <img src="img/rodizio2.png" alt="">
                 <div class="corte-info">
                     <strong>Rodízio Kaiseki</strong>
-                    <button>R$180,00</button>
+                    <button>R$360,00</button>
                 </div>
                 <p class="cortedescri">Venha viver uma verdadeira celebração de sabores no rodízio, que inclui drinks refrescantes e sobremesas irresistíveis! Não perca!</p>
             </div>
         </section>
     </section>
 
-
-
-
-
-
-    <div class="rodape">
-    <h2>VENHA CONHECER</h2>
+    <div class="rodape" data-aos="fade-up"  data-aos-anchor-placement="center-bottom">
+    <h2>VIVENCIE UMA EXPERIÊNCIA ÚNICA!</h2>
     <p>Estamos prontos para de recebê-lo e proporcionar um atendimento excepicional.</p>
     <p>Agende sua reserva online ou entre em contato conosco pelo telefone.</p>
     <address>Rua João Chammas - parque Japão, São Paulo - SP, 04917-140</address>
@@ -116,29 +120,36 @@
     <iframe width="100%"
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14614.893517871476!2d-46.7449523!3d-23.6858484!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce518d38193493%3A0x4a772cc681c602a0!2sKaiseki%20Ryori!5e0!3m2!1spt-BR!2sbr!4v1730805424590!5m2!1spt-BR!2sbr"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="laz"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>                       
-    <footer class="rodape">
-        <div class="rodape-icones">
-            <a href="https://www.instagram.com/senaisuzano/">
-                <i class="fa-brands fa-instagram fa-2x"></i> </a>
-            <a href="https://www.facebook.com/senaisp.suzano/">
-                <i class="fa-brands fa-facebook fa-2x"></i> </a>
-            <a href="https://www.tiktok.com/tag/senai">
-                <i class="fa-brands fa-tiktok fa-2x"></i> </a>
-        </div>
-        <div >
-            <img class="logorodape" src="img/logopeixe.png" alt="Logo sushi">
-        </div>
-        <div class="endereco">
-            <p><a href="privacidade.html">Política de privacidade</a></p>
-            <address>Rua João Chammas - parque Japão, São Paulo - SP, 04917-140</address>
-            <p>Telefone: 11 4922-8922</p>
-            <p>Copyright | 2024 Kaiseki - Todos direitos reservados</p>
-        </div>
-    </footer>
-    <a href="#"></a>
-    <script src="script.js"></script>
+        referrerpolicy="no-referrer-when-downgrade"></iframe> 
 
+        <footer> 
+            
+            <div class="footer-content" data-aos="fade-up"  data-aos-anchor-placement="center-bottom">
+                <div>
+            <img class="logorodape" src="img/logonome (2).png" alt="">
+            </div> 
+                <div class="footer-section">
+                    <h4> <a href="index.html">INÍCIO</a></h4>
+                    <ul>
+                        <li><a href="cardapio.html">CARDÁPIO</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>CONTATO</h4>
+                    <p>55 11 9002-8922</p>
+                    <p><a href="mailto:info@kaiseki.com">kaiseki.brasa@gmail.com</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>CRÉDITOS</h4>
+                    <p>_BrulaiSky</p>
+                </div>
+            </div>
+        </footer>
+    <a href="#"></a>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
    
 
 </body>
