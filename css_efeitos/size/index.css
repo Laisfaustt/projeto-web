@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.size{
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+    color: aliceblue;
+    align-content: center;
+    transition: width 0.5s, heigh 0.5s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.size:hover{
+    width: 200px;
+    height: 150px;
+    font-size: 1.5rem;
+}
+

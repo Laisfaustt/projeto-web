@@ -1,0 +1,16 @@
+.opacity{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: tomato;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: opacity 0.8s ease;
+}
+
+.opacity:hover{
+    opacity: 0.5;
+}

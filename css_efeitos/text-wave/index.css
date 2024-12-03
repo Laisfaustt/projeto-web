@@ -1,0 +1,24 @@
+.text-wave{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Segoe I';
+}
+
+.text-wave span{
+    display: inline-block;
+    animation: wave 1s infinite;
+
+}
+
+.text-wave span:nth-child(1) {animation-delay: 0s;}
+.text-wave span:nth-child(2) {animation-delay: 0.1s;}
+.text-wave span:nth-child(3) {animation-delay: 0.2s;}
+.text-wave span:nth-child(4) {animation-delay: 0.3s;}
+.text-wave span:nth-child(5) {animation-delay: 0.4s;}
+
+
+@keyframes wave {
+    0%, 100% {transform: translateY(0);}
+    50% {transform:translateY(10px);}                       
+}

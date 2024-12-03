@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Ondulação de Texto</title>
+</head>
+<body>
+    <div class="text-wave">TIMÃO</div>
+    <script>
+       const text = document.querySelector('.text-wave');
+        text.innerHTML = text.textContent.split('').map
+        (char => `<span>${char}</span>`).join ('');
+    </script>
+</body>
+</html>
