@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Matemasie&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Matemasie&family=Raleway:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
+
+body {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    min-height: 100vb;
+    align-items: center;
+    font-family: "Shrikhand", serif;
+    font-weight: 40;
+    font-style: normal;
+}
+
+.caixa {
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d1c9c9;
+    border-radius: 3px;
+}
+
+textarea{
+    height: 120px;
+}
+
+.button2{
+    background-color: rgb(10, 10, 10);
+    color: #eaeaea;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.button2:hover{
+    background-color: rgb(97, 96, 96);
+}
+
+.container {
+    display: flex;
+    margin: 0 0px;
+    padding: 30px;
+    justify-content: center;
+}
+
+nav li {
+    display: inline;
+    padding: 0px 40px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav li a:hover {
+    color: #ffffff;
+}
+
+footer {
+    margin-top: 300px;
+    width: 1737px;
+    color: rgb(0, 0, 0);
+    padding: 60px;
+    justify-content: center;
+    background-color: #eaeaea;
+}
+
+button {
+    background-color: #acaba9;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: #000000;
+}
+
+.texto{
+    font-family: "lexend";
+    font-size: 20px;
+    padding: 5px 7px;
+    color: #000000;  
+    justify-content: center;
+    display: flex;
+
+}
+
+h4{
+    padding: 5px 7px;
+    color: #000000;  
+    justify-content: center;
+    display: flex;
+
+}
+
+h1{
+    margin: 100px;
+    color: #ffffff;
+    font-weight: 100;
+    justify-content: center;
+    display: flex;
+
+}
+
+p{
+    font-family: "lexend";
+    font-size: 20px;
+    padding: 5px 7px;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    margin: 100px;
+}
+
+.img{
+    border: 20px;
+    margin: 100px;
+}
+
+.cabecario1 {
+    color: #000000;
+    padding: 0 10px;
+    font-size: 15px;
+    justify-content: center;
+    display: inline;
+    height: 20px;
+
+
+}
+
+.cabecario {
+    color: #000000;
+    padding: 0 10px;
+    font-size: 15px;
+    justify-content: center;
+    display: inline;
+    height: 20px;
+    margin: 0px 100px 90px;
+
+}
+
+.linha {
+    margin-top: 20px;
+    width: 1797px;
+    padding: 20px;
+    background-color: #eaeaea;
+}
