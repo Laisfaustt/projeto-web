@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(151, 93, 16);
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.menuAlterar{
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.menuAlterar a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    transition: color 0.3s ease;
+}
+
+.menuAlterar a:hover{
+    color: rgb(245, 101, 5);
+}
+
+.menuAlterar span{
+    border-radius: 3px;
+    height: 4px;
+    width: 33px;
+    background: #f5f5ff;
+    display: block;
+    margin-bottom: 5px;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s;
+}
+
+.menuAlterar input:checked ~ span{
+    transform: rotate(45deg);
+}
+
+.menuAlterar input:checked ~ span:nth-last-child(3){
+    opacity: 0;
+}
+
+.menuAlterar input:checked ~ span:nth-last-child(2){
+    transform: rotate(-45deg) translate(0.-1px);
+}
+
+.menuAlterar input{
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0;
+
+}
+
+.menu li{
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+.menu{
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    background-color: #f5f5ff;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s;
+    z-index: -1;
+}
+
+.menuAlterar input:checked ~ ul{
+    transform: none;
+}
