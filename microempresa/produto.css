@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Matemasie&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Matemasie&family=Raleway:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Matemasie&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
+
+body {
+    background-color: #000000;
+    font-family: sans-serif;
+}
+
+.titulo1 {
+    justify-content: center;
+    margin: 0px;
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: "Shrikhand", serif;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+footer {
+    margin-top: 100px;
+    width: 1737px;
+    color: rgb(0, 0, 0);
+    padding: 60px;
+    justify-content: center;
+    background-color: #e6d8bd;
+}
+
+button {
+    background-color: #acaba9;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: #000000;
+    margin: 50px 60px 40px;
+}
+
+.container {
+    display: flex;
+    margin: 0 0px;
+    padding: 30px;
+    justify-content: center;
+}
+
+nav li {
+    display: inline;
+    padding: 0px 40px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav li a:hover {
+    color: #ffffff;
+}
+
+.titulo2 {
+    color: #000000;
+    padding: 0 10px;
+    font-size: 30px;
+}
+
+.titulo2:hover {
+    color: #ffffff;
+}
+
+.contato {
+    color: #000000;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+p:hover {
+    color: #ffffff;
+}
+
+.card-grid {
+    margin-top: 150px;
+    display: grid;/*posiciona os cards lado a lado*/
+    grid-template-columns: auto;/* colunas automáticas*/
+    grid-template-areas: "a a a a";/*divide o grid em 4 colunas*/
+    gap: 80px;/* espaço (vão) entre as colunas do grid*/
+    width: 1300px;/*largura total do grid*/
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.card-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+
+}
+
+
+.card-content p {
+    font-size: 1em;
+    color: #666;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.card-content .btn {
+    display: inline-block;
+    margin-top: 45px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;/*velocidade de transição da cor do botão*/
+}
+
+.card-content .btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);/*movimenta o botão em -2px no eixo y*/
+}
+
+.card:hover {
+    transform: translateY(-5px);/*movimenta o cartão em -5px no eixo y*/
+}
+
+.cabecario1 {
+    color: #000000;
+    padding: 0 10px;
+    font-size: 15px;
+    justify-content: center;
+    display: inline;
+    height: 20px;
+}
+
+.cabecario {
+    color: #000000;
+    padding: 0 10px;
+    font-size: 15px;
+    justify-content: center;
+    display: inline;
+    height: 20px;
+    margin: 0px 100px 90px;
+}
+
+.linha {
+    margin-top: 20px;
+    width: 1797px;
+    padding: 20px;
+    background-color: #eaeaea;
+}
+
+.titulo2 {
+    color: #000000;
+    padding: 0 10px;
+    font-size: 30px;
+    font-family: "Shrikhand", serif;
+    font-weight: 400px;
+    font-style: normal;
+    justify-content: center;
+    display: flex;
+    margin: 0 0 40px;
+}
+
+.titulo2:hover {
+    color: #585858c0;
+}
+
+.contato {
+    color: #000000;
+    padding: 0 10px;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.contato:hover{
+    color: #585858c0;
+}
+
+
+footer {
+    margin-top: 90px;
+    width: 1822px;
+    color: rgb(0, 0, 0);
+    padding: 60px;
+    justify-content: center;
+    background-color: #eaeaea;
+    padding: 10px;
+}

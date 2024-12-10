@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Matemasie&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Matemasie&family=Raleway:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
+
+body {
+    background-color: #000000;
+    font-family: sans-serif;
+}
+
+.titulo1 {
+    justify-content: center;
+    margin: 0px;
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: "Shrikhand", serif;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+footer {
+    margin-top: 90px;
+    width: 1822px;
+    color: rgb(0, 0, 0);
+    padding: 60px;
+    justify-content: center;
+    background-color: #eaeaea;
+    padding: 10px;
+}
+
+button {
+    background-color: #acaba9;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: #000000;
+    margin: 50px 60px 40px;
+}
+
+.container {
+    display: flex;
+    margin: 0 0px;
+    justify-content: center;
+}
+
+nav li {
+    display: inline;
+    padding: 0px 40px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+nav li a:hover {
+    color: #ffffff;
+}
+
+.titulo2 {
+    color: #000000;
+    padding: 0 10px;
+    font-size: 30px;
+    font-family: "Shrikhand", serif;
+    font-weight: 400px;
+    font-style: normal;
+    justify-content: center;
+    display: flex;
+    margin: 0 0 40px;
+}
+
+.titulo2:hover {
+    color: #585858c0;
+}
+
+.contato {
+    color: #000000;
+    padding: 0 10px;
+    font-size: 20px;
+
+    justify-content: center;
+    display: flex;
+
+}
+
+p:hover {
+    color: #585858c0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.banner{
+    padding: 140px;
+
+}
+
+.cabecario1 {
+    color: #000000;
+    padding: 0 10px;
+    font-size: 15px;
+    justify-content: center;
+    display: inline;
+    height: 20px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+
+}
+
+.cabecario {
+    color: #000000;
+    padding: 0 10px;
+    font-size: 15px;
+    justify-content: center;
+    display: inline;
+    height: 20px;
+    margin: 0px 100px 90px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+.linha {
+    margin-top: 20px;
+    width: 1797px;
+    padding: 20px;
+    background-color: #eaeaea;
+}
